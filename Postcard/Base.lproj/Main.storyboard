@@ -90,6 +90,15 @@
                                     <rect key="frame" x="35" y="92" width="315" height="59"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4c1-NP-gFO">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="35" y="159" width="207" height="41"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioV-DW-HM7">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.68134055350154488" blue="0.22267304120015718" alpha="1" colorSpace="calibratedRGB"/>
@@ -112,6 +121,7 @@
                                 <exclude reference="dlw-hc-XXV"/>
                                 <exclude reference="22N-cy-kzd"/>
                                 <exclude reference="GGo-OF-J73"/>
+                                <exclude reference="4c1-NP-gFO"/>
                                 <exclude reference="ioV-DW-HM7"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="dlw-hc-XXV"/>
                                 <include reference="22N-cy-kzd"/>
                                 <include reference="GGo-OF-J73"/>
+                                <include reference="4c1-NP-gFO"/>
                                 <include reference="ioV-DW-HM7"/>
                             </mask>
                         </variation>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="dlw-hc-XXV" id="dVd-Wt-bdW"/>
                         <outlet property="mailButton" destination="ioV-DW-HM7" id="ONg-pz-WIr"/>
                         <outlet property="messageLabel" destination="GGo-OF-J73" id="oNu-BR-BHT"/>
+                        <outlet property="nameLabel" destination="4c1-NP-gFO" id="kwa-Rq-WSw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
